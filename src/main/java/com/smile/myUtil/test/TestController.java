@@ -14,4 +14,10 @@ public class TestController {
         System.out.println(str);
         return str;
     }
+
+    @RequestMapping(value = "/testFTP")
+    public String testFTP(){
+        return "/WEB-INF/view/image";
+    }
+
 }
