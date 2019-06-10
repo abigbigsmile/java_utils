@@ -14,8 +14,6 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Iterator;
 import java.util.Map;
 
-import static com.sun.xml.internal.ws.api.message.Packet.State.ServerResponse;
-
 @Controller
 @RequestMapping("order/")
 public class PayController {
